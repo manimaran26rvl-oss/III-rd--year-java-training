@@ -1,0 +1,141 @@
+1)import java.util.Scanner;
+
+public class sample1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter number1:");
+        int a = scan.nextInt();
+        System.out.println("Enter number2:");
+        int b = scan.nextInt();
+        if (a > b) {
+            System.out.println("A is greater");
+
+        } else {
+            System.out.println("B is graeter");
+        }
+    }
+
+}
+
+2)import java.util.Scanner;
+
+public class sample1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter number1:");
+        int a = scan.nextInt();
+        System.out.print("Enter number2:");
+        int b = scan.nextInt();
+        if (a == b) {
+            System.out.println("both are equal");
+
+        } else {
+            System.out.println("both are not equal");
+        }
+    }
+
+}
+
+3)import java.util.Scanner;
+
+public class sample1 {
+    public static void main(String[] args) {
+        while (true) {
+            Scanner scan = new Scanner(System.in);
+            System.out.print("Enter student mark:");
+            int mark = scan.nextInt();
+
+            if (mark >= 35 && mark <= 100) {
+                System.out.println("student pass");
+                break;
+
+            }
+
+            else if (mark < 35) {
+                System.out.println("student fail");
+                break;
+            }
+
+            else {
+                System.out.println(" mark is not defined");
+            }
+            
+        }
+    }
+
+}
+
+4)
+// driving lincense
+import java.util.Scanner;
+
+public class sample1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enetr your age to check eligiblity for driving lincense:");
+        int age = scan.nextInt();
+        if (age >= 18) {
+            System.out.println("your Eligible");
+        } else {
+            System.out.println("your not Eligible");
+        }
+
+    }
+
+}
+
+5)
+// even or higher num
+import java.util.Scanner;
+
+public class sample1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enetr an number:");
+        int num = scan.nextInt();
+        String res = (num % 2 == 0 && num >= 10) ? "number is even and greater then 10"
+                : "number is not even or not greater than 10";
+        System.out.println(res);
+    }
+
+}
+6)student pass checker
+public class pass {
+    public static void main(String[] args) {
+       int a =78;
+       int b=90;
+       if(a>40 && b>75){
+        System.out.println("pass");
+       }else{
+        System.out.println("fail");
+       }
+    }
+}
+7)shopping discount eligibility
+import java.util.Scanner;
+
+public class ShopDiscount {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter purchase amount: ");
+        double amount = sc.nextDouble();
+
+        if (amount >= 5000) {
+            System.out.println("You are eligible for a 20% discount.");
+            System.out.println("Discount amount: " + (amount * 0.20));
+            System.out.println("Final amount: " + (amount * 0.80));
+        } else if (amount >= 2000) {
+            System.out.println("You are eligible for a 10% discount.");
+            System.out.println("Discount amount: " + (amount * 0.10));
+            System.out.println("Final amount: " + (amount * 0.90));
+        } else {
+            System.out.println("You are not eligible for a discount.");
+            System.out.println("Final amount: " + amount);
+        }
+
+        sc.close();
+    }
+}
+        
+    

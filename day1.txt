@@ -1,0 +1,105 @@
+1)personal information
+
+public class PersonalInformation {
+    public static void main(String[] args) {
+        String name = "Rahul";
+        int age = 21;
+        String city = "Kochi";
+
+        System.out.println("Personal Information");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("City: " + city);
+    }
+}
+2)two number calculator
+
+public class PersonalInformation {
+    public static void main(String[] args) {
+        String name = "Rahul";
+        int age = 21;
+        String city = "Kochi";
+
+        System.out.println("Personal Information");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("City: " + city);
+    }
+}
+3)rectangle calculator
+
+
+public class Rectangle {
+    public static void main(String[] args) {
+        int length = 10;
+        int breadth = 5;
+
+        int area = length * breadth;
+        int perimeter = 2 * (length + breadth);
+
+        System.out.println("Length: " + length);
+        System.out.println("Breadth: " + breadth);
+        System.out.println("Area: " + area);
+        System.out.println("Perimeter: " + perimeter);
+    }
+}
+
+4)student marks
+
+public class StudentMarks {
+    public static void main(String[] args) {
+        int subject1 = 80;
+        int subject2 = 75;
+        int subject3 = 90;
+        int subject4 = 85;
+        int subject5 = 70;
+
+        int total = subject1 + subject2 + subject3 + subject4 + subject5;
+        double average = total / 5.0;
+
+        System.out.println("Student Marks");
+        System.out.println("Subject 1: " + subject1);
+        System.out.println("Subject 2: " + subject2);
+        System.out.println("Subject 3: " + subject3);
+        System.out.println("Subject 4: " + subject4);
+        System.out.println("Subject 5: " + subject5);
+        System.out.println("Total Marks: " + total);
+        System.out.println("Average Marks: " + average);
+
+5)employee salary
+
+public class EmployeeSalary {
+    public static void main(String[] args) {
+        double basicSalary = 20000;
+        double hra = 5000;
+        double da = 3000;
+
+        double grossSalary = basicSalary + hra + da;
+
+        System.out.println("Employee Salary Details");
+        System.out.println("Basic Salary: " + basicSalary);
+        System.out.println("HRA: " + hra);
+        System.out.println("DA: " + da);
+        System.out.println("Gross Salary: " + grossSalary);
+    }
+}
+
+6)swap two numbers
+
+public class SwapNumbers {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+        System.out.println("Before Swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        int temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("After Swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
